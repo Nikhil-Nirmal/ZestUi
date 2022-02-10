@@ -1,0 +1,225 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #98aeff;
+    font 3 : #6e7996;   
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Orbitron:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+body {
+    background:#0a192f;
+    font-family: 'Titillium Web';
+}
+.centerContent{
+    margin: 1rem 2rem 0px 2rem;
+    display:flex;
+    flex-direction: row;
+}
+.sideBar{
+    margin-top: 3rem;
+}
+.list{
+    margin-left: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type:none ;
+}
+hr{
+    margin: 0.5rem -0.5rem;
+}
+nav{
+    text-align: left;
+}
+header nav ul li a{
+    font-family: 'Orbitron', sans-serif;
+	font-size: 1.4rem;
+	list-style-type: none;
+	display: inline-block;
+    margin: 2rem 0px 0px 4rem;
+    text-decoration: none;
+    color:#55dabe;  
+}
+.title{
+    margin: 1rem 0px 0px 2rem;
+    font-family:'Orbitron';
+    color:#98aeff;
+    font-size:1.7rem;
+}
+
+.heroSection{
+    align-items: center;
+    width: 50%;
+    margin:2rem auto auto auto;
+}
+
+.display{
+    margin: 1rem 2rem 0px 2rem;
+    font-family:'Orbitron';
+    color:#98aeff;
+    font-size:2rem;
+    text-decoration: none;
+}
+
+.list li a{
+    font-family: 'Orbitron', sans-serif;
+	font-size: 1.3rem;
+	list-style-type: none;
+    text-decoration: none;
+    color:#dcefff;
+}
+
+.list li{
+    margin: 3rem 0px 0px 0px;
+}
+
+#active{
+    font-family: 'Orbitron', sans-serif;
+	font-size: 1.3rem;
+	list-style-type: none;
+    text-decoration: none;
+    color:#98aeff ;
+}
+
+.list li a:hover{
+    color:#98aeff;
+}
+
+.line{
+    margin: 2rem 0px 0px 0px;
+    height: 1px;
+    border:#4ec6b6 1px solid;
+}
+.description {
+    margin: 2rem 0px 2rem 0px;
+    color: #dcefff;
+    font-size: 1.3rem;
+}
+
+.num{
+    color: #55dabe;
+    font-size: 2rem;
+}
+.mobileView{
+    display: none;
+    width: 30px;
+    margin: 2rem 2rem 2rem 0px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .list-mobile{
+    background-color: #111;
+  }
+  
+  .sidenav a {
+    background-color: #111;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #ccd6f6;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Orbitron', sans-serif;
+	font-size: 2rem;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .com-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccd6f6;
+    margin:2rem 0px 2rem 0px ;
+    padding: 2rem;
+  }
+
+  #btn-link {
+      margin: auto;
+  }
+
+  footer ul li a{
+    font-family: 'Orbitron', sans-serif;
+	font-size: 1.3rem;
+	list-style-type: none;
+	display: inline-block;
+	margin-right:2rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color:#55dabe;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 2rem 1rem 2rem;
+}
+.img-retry {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 80%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    * {
+      font-size: 10px;
+    }
+
+    .heroSection{
+        width: 80%;
+        margin:3rem auto auto auto;
+        display: block;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description{
+        margin:2rem auto 2rem  auto;
+    }
+    .sideBar{
+        display: none;
+    }
+    header nav ul li a{
+       font-size: 2rem;
+       margin-top: 4rem;
+    }
+    .mobileView{
+        display: block;
+        width: 30px;
+        margin: 4rem 4rem 0px 0px;
+    }
+  }
