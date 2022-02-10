@@ -1,5 +1,82 @@
-*{
-    margin: 0px;
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #98aeff;
+    font 3 : #dcefff;   
+*/
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Orbitron:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
     padding: 0px;
-
+    margin: 0px;
+    background-color: #0a192f;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Titillium Web';
 }
+
+.heroSection {
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin:14rem auto auto  auto;
+}
+
+.title {
+    margin: 2rem 0px 0px 0px;
+    font-family:'Orbitron';
+    color:#98aeff;
+    font-size:2rem;
+}
+
+.description {
+    margin: 2rem 0px 0px 0px;
+    color: #dcefff;
+    font-size: 1.5rem;
+}
+
+
+button {
+    margin: 4rem 2rem 1rem 2rem;
+    padding: 1rem 2.3rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+}
+
+
+#getStartedBtn {
+    color: #3fa194;
+    border: 3px solid #3fa194;
+}
+
+#getStartedBtn:hover {
+    background-color: #55dabe; 
+    color: #0a192f; 
+    transition: 600ms ease-in;
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 800px) {
+    * {
+      font-size: 10px;
+    }
+
+    .heroSection{
+        margin:14rem auto auto  auto;
+        width: 80%;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description{
+        margin:8rem auto auto  auto;
+    }
+
+  }
+
+  
