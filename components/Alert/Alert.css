@@ -18,7 +18,7 @@
     justify-content: space-between;
     background-color: rgb(253, 54, 54);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 strong {
@@ -41,7 +41,7 @@ strong:hover {
     justify-content: space-between;
     background-color:rgb(250, 184, 1);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .warningAlertText{
@@ -56,7 +56,7 @@ strong:hover {
     justify-content: space-between;
     background-color:rgb(93, 71, 219);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .primaryAlertText{
@@ -71,7 +71,7 @@ strong:hover {
     justify-content: space-between;
     background-color:rgb(2, 247, 145);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .successAlertText{
@@ -94,7 +94,7 @@ strong:hover {
     background-color: #ccd6f6;
     border:  rgb(253, 54, 54) 2px solid;
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 
@@ -105,7 +105,7 @@ strong:hover {
     background-color: #ffffff;
     color:rgb(250, 184, 1);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
     border:  rgb(250, 184, 1)2px solid;
 }
 
@@ -125,7 +125,7 @@ strong:hover {
     background-color: #ccd6f6;
     border:  rgb(93, 71, 219) 2px solid;    
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .primaryAlertText-outline{
@@ -142,7 +142,7 @@ strong:hover {
     justify-content: space-between;
     background-color: #ccd6f6;
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .primaryAlertText-outline{
@@ -157,7 +157,7 @@ strong:hover {
     justify-content: space-between;
     background-color:#ffffff;
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
     border:  rgb(2, 247, 145) 2px solid;   
 }
 
@@ -183,7 +183,7 @@ strong:hover {
     justify-content: space-between;
     background-color: rgb(253, 54, 54);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 strong {
@@ -208,7 +208,7 @@ strong:hover {
     justify-content: space-between;
     background-color:rgb(250, 184, 1);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .warningAlertText-icon{
@@ -225,7 +225,7 @@ strong:hover {
     justify-content: space-between;
     background-color:rgb(2, 247, 145);
     padding: 0.5rem;  
-    width: 100%;
+    width: 90%;
 }
 
 .successAlertText-icon{
