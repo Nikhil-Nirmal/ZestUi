@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Navigation.css">
+    <link rel="stylesheet" href="../../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Navigation</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <a class="display" href="/components/Alert/Alert.html">Extras</a>
+        </div>
+        <ul class="list-mobile">
+            <li>
+                <a href="../Extras.html">
+                    Rating
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Modal.html">
+                    Modal
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Navigation.html">
+                    Navigation
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Slider.html">
+                    Slider
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Extras</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="../Extras.html">
+                            Rating
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Extra-Components/Modal.html">
+                            Modal
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="../Extra-Components/Navigation.html">
+                            Navigation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Extra-Components/Slider.html">
+                            Slider
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">3.&emsp;</highlight> Navigation :</h1>
+            <div class="line"></div>
+            <h3 class="description">Having easy-to-use navigation is important for any web site.</h3>
+            <h3 class="description">With With Zest UI you can transform boring HTML menus into good-looking navigation bars.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+            
+            <div class="com-display">
+               <div class="navigation">  
+                   <ul class="nav-ul">
+                       <li class="nav-list"> 
+                            <a class="nav-link" href="">Home</a>
+                       </li>
+                       <li class="nav-list">
+                            <a class="nav-link" href="">Servies</a>
+                       </li>
+                        <li class="nav-list">
+                            <a class="nav-link" href="">About</a>
+                        </li>
+                        <li class="nav-list">
+                            <a class="nav-link" href="">Contact us</a>
+                        </li>
+                   </ul>
+               </div>
+            </div>
+
+            <pre>
+                <code class="html">
+    &lt;div class="navigation"&gt;  
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Servies&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Contact us&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+
+
+            <div class="line"></div>
+            <h3 class="description">Vertical Navigation :</h3>
+                <div class="com-display" >
+                    <div class="navigation-vertical" id="btn-link">
+                        <ul class="vertical-nav">
+                            <li class="vertical-nav-list">
+                                 <a class="vertical-nav-link" href="">Home</a>
+                            </li>
+                            <li class="vertical-nav-list">
+                                 <a class="vertical-nav-link" href="">Servies</a>
+                            </li>
+                             <li class="vertical-nav-list">
+                                 <a class="vertical-nav-link" href="">About</a>
+                             </li>
+                             <li class="vertical-nav-list">
+                                 <a class="vertical-nav-link" href="">Contact us</a>
+                             </li>
+                        </ul>
+                    </div>
+                </div>
+
+        <pre>
+            <code class="html">
+    &lt;div class="navigation-vertical"&gt;  
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Services&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Contact us&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+
+        <div class="line"></div>
+        <h3 class="description">Drawer :</h3>
+        <div class="com-display">
+            <h1>Click Me  ---&gt;</h1>
+            <img class="drawerView" onclick="openNav1()" src="../../../Images/drawer2.png" alt="drawer">
+            <div id="mySidenav1" class="sideNav">
+                <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+                <ul class="list-mobile-new">
+                    <li>
+                        <a class="sidenav-link" href="">
+                            Home 
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sidenav-link" href="">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sidenav-link" href="">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="sidenav-link" href="">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              </div>
+        <pre>
+            <code class="html">
+    &lt;h1&gt;Click Me  ---&gt;&lt;/h1&gt;
+        &lt;img class="drawerView" onclick="openNav1()" src="../../../Images/drawer2.png" alt="drawer"&gt;
+        &lt;div id="mySidenav1" class="sideNav"&gt;
+        &lt;a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()"&gt;&times;&lt;/a&gt;
+        &lt;ul class="list-mobile-new"&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Servies&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;a href=""&gt;Contact us&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/div&gt;
+            </code>
+        </pre>
+
+        <pre>
+            <code class="html">
+    &lt;script&gt;
+        function openNav1()
+        {
+            document.getElementById("mySidenav1").style.width = "250px";
+        }
+                    
+        function closeNav1()
+        {
+            document.getElementById("mySidenav1").style.width = "0";
+        }
+    &lt;/script&gt;
+            </code>
+        </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Extra-Components/Modal.html">&lt;&emsp;Modal</a></li>
+            <li><a href="../Extra-Components/Slider.html">Slider&emsp;&gt;</a></li>
+
+        </ul>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        <script>
+            function openNav1() {
+              document.getElementById("mySidenav1").style.width = "250px";
+            }
+            
+            function closeNav1() {
+              document.getElementById("mySidenav1").style.width = "0";
+            }
+            </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
