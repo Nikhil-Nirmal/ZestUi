@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Slider.css">
+    <link rel="stylesheet" href="../../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Slider</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <a class="display" href="/components/Alert/Alert.html">Extras</a>
+        </div>
+        <ul class="list-mobile">
+            <li>
+                <a href="../Extras.html">
+                    Rating
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Modal.html">
+                    Modal
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Navigation.html">
+                    Navigation
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extra-Components/Slider.html">
+                    Slider
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Extras</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="../Extras.html">
+                            Rating
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Extra-Components/Modal.html">
+                            Modal
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="../Extra-Components/Navigation.html">
+                            Navigation
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="/components/Extras/Extra-Components/Slider.html">
+                            Slider
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">4.&emsp;</highlight> Slider :</h1>
+            <div class="line"></div>
+            <h3 class="description">Slider is a sliding div, which can be horizontal or vertical.</h3>
+            <h3 class="description"> To show any products or banner in your web page, sliders are used.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+            
+            <div class="com-display">
+                <div class="slidecontainer" id="btn-link">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="range">
+                    <p class="content"> Value: <span id="sliderValue"></span></p>
+                </div>
+            </div>
+
+            <pre>
+                <code class="html">
+    &lt;div class="slidecontainer" id="btn-link"&gt;
+        &lt;input type="range" min="1" max="100" value="50" class="slider" id="range"&gt;
+        &lt;p class="content"&gt; Value: &lt;span id="sliderValue"&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+
+            <pre>
+                <code class="html">
+    &lt;script&gt;
+        let slider = document.getElementById("range");
+        let output = document.getElementById("sliderValue");
+        output.innerHTML = slider.value;
+        slider.oninput = function()
+        {
+            output.innerHTML = this.value;
+        }
+    &lt;/script&gt;
+                </code>
+            </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Extra-Components/Navigation.html">&lt;&emsp;Navigation</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        <script>
+            let slider = document.getElementById("range");
+            let output = document.getElementById("sliderValue");
+            output.innerHTML = slider.value;
+            slider.oninput = function() {
+            output.innerHTML = this.value;
+}
+            </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
