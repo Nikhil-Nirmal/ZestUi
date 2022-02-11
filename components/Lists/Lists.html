@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lists.css">
+    <link rel="stylesheet" href="../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Lists</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-mobile">
+            <li>
+                <a href="#">
+                    Alert
+                </a>
+            </li>
+            <li>
+                <a href="/components/Avatar/avatar.html">
+                    Avatar
+                </a>
+            </li>
+            <li>
+                <a href="/components/Badge/badge.html">
+                    Badge
+                </a>
+            </li>
+            <li>
+                <a href="/components/Button/button.html">
+                    Button
+                </a>
+            </li>
+            <li>
+                <a href="/components/Card/card.html">
+                    Card
+                </a>
+            </li>
+            <li>
+                <a href="/components/Image/Image.html">
+                    Image
+                </a>
+            </li>
+            <li>
+                <a href="/components/Input/Input.html">
+                    Input
+                </a>
+            </li>
+            <li>
+                <a href="/components/Lists/Lists.html">
+                    List
+                </a>
+            </li>
+            <li>
+                <a href="/components/Toast/toast.html">
+                    Toast
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extras.html">
+                    Extras
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Components</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="/components/Alert/Alert.html">
+                            Alert
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Avatar/avatar.html">
+                            Avatar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Badge/badge.html">
+                            Badge
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Button/button.html">
+                            Button
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Card/card.html">
+                            Card
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Image/Image.html">
+                            Image
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="/components/Input/Input.html">
+                            Input
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="/components/Lists/Lists.html">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Toast/toast.html">
+                            Toast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Extras/Extras.html">
+                            Extras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">8.&emsp;</highlight> List :</h1>
+            <div class="line"></div>
+            <h3 class="description"> Lists are used to specify lists of information. All lists may contain one or more list elements.</h3>
+            <h3 class="description">Some examples are shown below:</h3>
+            
+            <div class="com-display">
+                    <div id="btn-link">
+                        <ul class="lists">
+                            <div class="list-title">Games</div>
+                            <hr>
+                            <li>Gta V</li>
+                            <li>Valorant</li>
+                            <li>Cs : Go</li>
+                            <li>Max Payne Triology</li>
+                        </ul>
+                    </div>
+            </div>
+
+            <pre>
+                <code class="html">
+        &lt;ul class="lists"&gt;
+
+        &lt;div class="list-title"&gt;Games&lt;/div&gt;
+
+        &lt;hr&gt;
+
+        &lt;li&gt;Gta V&lt;/li&gt;
+
+        &lt;li&gt;Valorant&lt;/li&gt;
+
+        &lt;li&gt;Cs : Go&lt;/li&gt;
+
+        &lt;li&gt;Max Payne Triology&lt;/li&gt;
+
+    &lt;/ul&gt;
+                </code>
+            </pre>
+            <div class="line"></div>
+            <h3 class="description">List items can also contain sub-list items.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+
+            <div class="com-display">
+                <div id="btn-link">
+                    <ul class="lists">
+                        <div class="list-title">Categories</div>
+                        <hr>
+                        <li>Mobile</li>
+                        <li><ul>
+                                <div class="-sub-list-title">Gaming Laptops</div>
+                                <li>Legion</li>
+                                <li>Omen</li>
+                                <li>Ideapad Gaming</li>
+                                <li>Alienware</li>
+                                <li>Predator</li>
+                            </ul>
+                        </li>
+                        <li>Consoles</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+            </div>
+
+        <pre>
+            <code class="html">
+    &lt;ul class="lists"&gt;
+
+        &lt;div class="list-title"&gt;Categories&lt;/div&gt;
+
+        &lt;hr&gt;
+
+        &lt;li&gt;Mobile&lt;/li&gt;
+
+        &lt;li&gt;
+
+            &lt;ul&gt;
+
+                &lt;div class="-sub-list-title"&gt;Gaming Laptops&lt;/div&gt;
+
+                &lt;li&gt;Legion&lt;/li&gt;
+
+                &lt;li&gt;Omen&lt;/li&gt;
+
+                &lt;li&gt;Ideapad Gaming&lt;/li&gt;
+
+                &lt;li&gt;Alienware&lt;/li&gt;
+
+                &lt;li&gt;Predator&lt;/li&gt;
+
+            &lt;/ul&gt;
+
+        &lt;/li&gt;
+
+        &lt;li&gt;Consoles&lt;/li&gt;
+
+        &lt;li&gt;Accessories&lt;/li&gt;
+        
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Input/Input.html">&lt;&emsp;Input</a></li>
+            <li><a href="../Toast/Toast.html">Toast&emsp;&gt;</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function dismissErrorAlert() {
+            document.getElementsByClassName("errorAlert")[0].classList.add("dismiss")
+        }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

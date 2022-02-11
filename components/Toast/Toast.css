@@ -1,0 +1,17 @@
+.toast {
+    background-color: white;
+    padding: 1rem;
+}
+.toast-dismiss {
+    background-color: white;
+    padding: 1rem;
+}
+.close {
+    margin: 1rem 0px 0px 6rem;
+}
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
