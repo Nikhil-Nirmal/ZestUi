@@ -1,0 +1,100 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #ccd6f6;
+    font 3 : #6e7996;   
+*/
+
+.btn {
+    background-color:#0a192f;
+    color: #ccd6f6;
+    padding: 0.5rem 1rem;
+}
+.btn-primary {
+    color:#ccd6f6;
+    background-color: rgb(66, 66, 206);
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary:hover {
+    background-color: rgb(33, 33, 143);
+    padding: 0.5rem 1rem;
+}
+
+.btn-success {
+    background-color:#02bb02;
+    color:#ccd6f6;
+    padding: 0.5rem 1rem;
+}
+
+.btn-success:hover {
+    background-color:#198b2c;
+}
+
+.btn-error {
+    background-color:#f33434;
+    color:#ccd6f6;
+    padding: 0.5rem 1rem;
+}
+
+.btn-error:hover {
+    background-color:#c50101;
+}
+
+/* Button with outline */
+.btn-outline {
+    border: #0a192f 2px solid;
+    color: #0a192f;
+    padding: 0.5rem 1rem;
+    background-color: inherit;
+}
+
+.btn-outline:hover {
+    background-color:#0a192f;
+    color: #ccd6f6;
+}
+
+.btn-primary-outline {
+    border: rgb(66, 66, 206) 2px solid;
+    color: rgb(66, 66, 206);
+    padding: 0.5rem 1rem;
+    background-color: inherit;
+}
+
+.btn-primary-outline:hover {
+    color:#ccd6f6;
+    background-color: rgb(66, 66, 206);
+}
+
+
+.btn-success-outline {
+    color: #02bb02;
+    border: #02bb02 2px solid; 
+    background-color:inherit;
+    padding: 0.5rem 1rem;
+}
+
+.btn-success-outline:hover {
+    background-color:#02bb02;
+    color:#ccd6f6;
+}
+
+.btn-error-outline {
+    color:#f33434;
+    border: #f33434 2px solid;
+    background-color: inherit;
+    padding: 0.5rem 1rem;
+}
+
+.btn-error-outline:hover {
+    background-color:#f33434;
+    color:#ccd6f6;
+}
+
+.btn-link {
+    text-decoration: none;
+    color:#ccd6f6;
+    padding: 0.5rem 1rem;
+}
