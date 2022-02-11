@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Alert.css">
+    <link rel="stylesheet" href="../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-mobile">
+            <li>
+                <a href="#">
+                    Alert
+                </a>
+            </li>
+            <li>
+                <a href="/components/Avatar/avatar.html">
+                    Avatar
+                </a>
+            </li>
+            <li>
+                <a href="/components/Badge/badge.html">
+                    Badge
+                </a>
+            </li>
+            <li>
+                <a href="/components/Button/button.html">
+                    Button
+                </a>
+            </li>
+            <li>
+                <a href="/components/Card/card.html">
+                    Card
+                </a>
+            </li>
+            <li>
+                <a href="/components/Image/Image.html">
+                    Image
+                </a>
+            </li>
+            <li>
+                <a href="/components/Input/Input.html">
+                    Input
+                </a>
+            </li>
+            <li>
+                <a href="/components/Lists/Lists.html">
+                    List
+                </a>
+            </li>
+            <li>
+                <a href="/components/Toast/toast.html">
+                    Toast
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extras.html">
+                    Extras
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Components</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a id="active" href="#">
+                            Alert
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Avatar/avatar.html">
+                            Avatar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Badge/badge.html">
+                            Badge
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Button/button.html">
+                            Button
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Card/card.html">
+                            Card
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Image/Image.html">
+                            Image
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Input/Input.html">
+                            Input
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Lists/Lists.html">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Toast/toast.html">
+                            Toast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Extras/Extras.html">
+                            Extras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">1.&emsp;</highlight> Alert :</h1>
+            <div class="line"></div>
+            <h3 class="description">Alert messages can be used to notify the user about something special: danger, success, information or warning.</h3>
+            <h3 class="description">Some examples are shown below:</h3>
+            <div class="alerts">
+                <div class="errorAlert">
+                    <h1 class="errorAlertText"> Error! This is an Error Alert. </h1>
+                </div>
+                <div class="warningAlert">
+                    <h1 class="warningAlertText">Warning! This is a Warning Alert. </h1>
+                </div>
+                <div class="primaryAlert">
+                    <h1 class="primaryAlertText">Primary! This is a Primary Alert. </h1>
+                </div>
+                <div class="successAlert">
+                    <h1 class="successAlertText">Success! This is a Success Alert. </h1>
+                </div>
+            </div>
+
+            <pre>
+                <code class="html">
+    &lt;div class="errorAlert"&gt;
+        &lt;h1 class="errorAlertText"&gt;
+        Error! This is an Error Alert. 
+        &lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class="warningAlert"&gt;
+        &lt;h1 class="warningAlertText"&gt;
+        Warning! This is a Warning Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="primaryAlert"&gt;
+        &lt;h1 class="primaryAlertText"&gt;
+        Primary! This is a Primary Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+                    
+    &lt;div class="successAlert"&gt;
+        &lt;h1 class="successAlertText"&gt;
+        Success! This is a Success Alert. &lt;/h1&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+
+            <div class="line"></div>
+            <h3 class="description">Below are some examples of Alert with outline :</h3>
+            <div class="alerts">
+                <div class="errorAlert-outline">
+                    <h1 class="errorAlertText-outline"> Error! This is an Error Alert. </h1>
+                </div>
+                <div class="warningAlert-outline">
+                    <h1 class="warningAlertText-outline">Warning! This is a Warning Alert. </h1>
+                </div>
+                <div class="primaryAlert-outline">
+                    <h1 class="primaryAlertText-outline">Primary! This is a Primary Alert. </h1>
+                </div>
+                <div class="successAlert-outline">
+                    <h1 class="successAlertText-outline">Success! This is a Success Alert. </h1>
+                </div>
+            </div>
+
+            <pre>
+                <code class="html">
+    &lt;div class="errorAlert-outline"&gt;
+        &lt;h1 class="errorAlertText-outline"&gt;
+        Error! This is an Error Alert. 
+        &lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class="warningAlert-outline"&gt;
+        &lt;h1 class="warningAlertText-outline"&gt;
+        Warning! This is a Warning Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="primaryAlert-outline"&gt;
+        &lt;h1 class="primaryAlertText-outline"&gt;
+        Primary! This is a Primary Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+                    
+    &lt;div class="successAlert-outline"&gt;
+        &lt;h1 class="successAlertText-outline"&gt;
+        Success! This is a Success Alert. &lt;/h1&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+
+
+            <div class="line"></div>    
+            <h3 class="description">Alert with Icons :</h3>
+            <div class="alerts">
+                <div class="errorAlert-icon">
+                    <h1 class="errorAlertText-icon"> Error! This is an Error Alert. </h1>
+                    <img src="../../Images/error.png" alt="">
+                </div>
+                <div class="warningAlert-icon">
+                    <h1 class="warningAlertText-icon">Warning! This is a Warning Alert. </h1>
+                    <img src="../../Images/warning.png" alt="">
+                </div>
+                <div class="successAlert-icon">
+                    <h1 class="successAlertText-icon">Success! This is a Success Alert. </h1>
+                    <img src="../../Images/success.png" alt="">
+                </div>
+            </div>
+
+            <pre>
+                <code class="html">
+    &lt;div class="errorAlert-outline"&gt;
+        &lt;h1 class="errorAlertText-outline"&gt;
+        Error! This is an Error Alert. 
+        &lt;/h1&gt;
+    &lt;/div&gt;
+
+    &lt;div class="warningAlert-outline"&gt;
+        &lt;h1 class="warningAlertText-outline"&gt;
+        Warning! This is a Warning Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="primaryAlert-outline"&gt;
+        &lt;h1 class="primaryAlertText-outline"&gt;
+        Primary! This is a Primary Alert.&lt;/h1&gt;
+    &lt;/div&gt;
+                    
+    &lt;div class="successAlert-outline"&gt;
+        &lt;h1 class="successAlertText-outline"&gt;
+        Success! This is a Success Alert. &lt;/h1&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+        </main>
+    </div>
+</div>
+
+<footer>
+    <ul >
+        <li><a href="../../Getting Started/introduction.html">&lt;&emsp;Get Started</a></li>
+        <li><a href="../Avatar/Avatar.html">Avatar&emsp;&gt;</a></li>
+    </ul>
+</footer>
+
+    <script>
+        function dismissErrorAlert() {
+            document.getElementsByClassName("errorAlert")[0].classList.add("dismiss")
+        }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #ccd6f6;
+    font 3 : #6e7996;   
+*/
+
+.errorAlertText{
+    color: #ccd6f6;
+    font-size: 1.2rem;
+    background-color: rgb(253, 54, 54)
+}
+.errorAlert{
+    margin: 1rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 54, 54);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+strong {
+    background-color: rgb(253, 54, 54);
+    font-size: 1.5rem;
+    color: #273955;
+}
+
+strong:hover {
+    color: #0a192f;
+    cursor: pointer;
+}
+
+.dismiss {
+    display: none;
+}
+.warningAlert{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(250, 184, 1);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.warningAlertText{
+    color:white;
+    font-size: 1.2rem;
+    background-color:rgb(250, 184, 1);
+}
+
+.primaryAlert{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(93, 71, 219);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.primaryAlertText{
+    color:white;
+    font-size: 1.2rem;
+    background-color:rgb(93, 71, 219);
+}
+
+.successAlert{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(2, 247, 145);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.successAlertText{
+    color:white;
+    font-size: 1.2rem;
+    background-color:rgb(2, 247, 145);
+}
+
+
+/* Out-line Alerts */
+.errorAlertText-outline{
+    color:  rgb(253, 54, 54);
+    font-size: 1.2rem;
+    background-color: #ccd6f6;
+}
+.errorAlert-outline{
+    margin: 1rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccd6f6;
+    border:  rgb(253, 54, 54) 2px solid;
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+
+.warningAlert-outline{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color:rgb(250, 184, 1);
+    padding: 0.5rem;  
+    width: 100%;
+    border:  rgb(250, 184, 1)2px solid;
+}
+
+.warningAlertText-outline{
+    color:white;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    color:rgb(250, 184, 1);
+}
+
+
+
+.primaryAlert-outline{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccd6f6;
+    border:  rgb(93, 71, 219) 2px solid;    
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.primaryAlertText-outline{
+    color:rgb(93, 71, 219);
+    font-size: 1.2rem;
+    background-color: #ccd6f6;
+}
+
+
+
+.primaryAlert-outline{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccd6f6;
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.primaryAlertText-outline{
+    color:rgb(93, 71, 219);
+    font-size: 1.2rem;
+    background-color:#ccd6f6;
+}
+
+.successAlert-outline{
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+    padding: 0.5rem;  
+    width: 100%;
+    border:  rgb(2, 247, 145) 2px solid;   
+}
+
+.successAlertText-outline{
+    background-color:#ffffff;
+    font-size: 1.2rem;
+    color:rgb(2, 247, 145);
+}
+
+/* Alert With Icons */
+
+
+.errorAlertText-icon{
+    color: #ccd6f6;
+    font-size: 1.2rem;
+    background-color: rgb(253, 54, 54)
+}
+.errorAlert-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 54, 54);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+strong {
+    background-color: rgb(253, 54, 54);
+    font-size: 1.5rem;
+    color: #273955;
+}
+
+strong:hover {
+    color: #0a192f;
+    cursor: pointer;
+}
+
+.dismiss {
+    display: none;
+}
+.warningAlert-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(250, 184, 1);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.warningAlertText-icon{
+    color:white;
+    font-size: 1.2rem;
+    background-color:rgb(250, 184, 1);
+}
+
+.successAlert-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(2, 247, 145);
+    padding: 0.5rem;  
+    width: 100%;
+}
+
+.successAlertText-icon{
+    color:white;
+    font-size: 1.2rem;
+    background-color:rgb(2, 247, 145);
+}
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1rem;
+}
