@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Avatar.css">
+    <link rel="stylesheet" href="../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Avatar</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-mobile">
+            <li>
+                <a href="#">
+                    Alert
+                </a>
+            </li>
+            <li>
+                <a href="/components/Avatar/avatar.html">
+                    Avatar
+                </a>
+            </li>
+            <li>
+                <a href="/components/Badge/badge.html">
+                    Badge
+                </a>
+            </li>
+            <li>
+                <a href="/components/Button/button.html">
+                    Button
+                </a>
+            </li>
+            <li>
+                <a href="/components/Card/card.html">
+                    Card
+                </a>
+            </li>
+            <li>
+                <a href="/components/Image/Image.html">
+                    Image
+                </a>
+            </li>
+            <li>
+                <a href="/components/Input/Input.html">
+                    Input
+                </a>
+            </li>
+            <li>
+                <a href="/components/Lists/Lists.html">
+                    List
+                </a>
+            </li>
+            <li>
+                <a href="/components/Toast/toast.html">
+                    Toast
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extras.html">
+                    Extras
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Components</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="/components/Alert/Alert.html">
+                            Alert
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="/components/Avatar/avatar.html">
+                            Avatar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Badge/badge.html">
+                            Badge
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Button/button.html">
+                            Button
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Card/card.html">
+                            Card
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Image/Image.html">
+                            Image
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Input/Input.html">
+                            Input
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Lists/Lists.html">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Toast/toast.html">
+                            Toast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Extras/Extras.html">
+                            Extras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">1.&emsp;</highlight> Avatar :</h1>
+            <div class="line"></div>
+            <h3 class="description">Avatars are images that users can set as their profile picture.</h3>
+            <h3 class="description">Some examples are shown below:</h3>
+            
+            
+            <div class="com-display">
+                    <img class="avatar-sm" src="../../Images/avatar1.jpg"  alt="avatar">
+                    <img class="avatar-sm" src="../../Images/avatar2.png"  alt="avatar">
+                    <img class="avatar-sm" src="../../Images/avatar3.jpg"  alt="avatar">
+            </div>
+            <div class="line"></div>
+            <h3 class="description">Avatar's size can be costumised upto one's preferences.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+
+            <div class="com-display">
+                <img class="avatar-sm" src="../../Images/avatar1.jpg"  alt="avatar">
+                <img class="avatar-md" src="../../Images/avatar2.png"  alt="avatar">
+                <img class="avatar-lg" src="../../Images/avatar3.jpg"  alt="avatar">
+        </div>
+
+        <pre>
+            <code class="html">
+    &lt;img class="avatar-sm" src="../../Images/avatar1.jpg"  alt="avatar"&gt;
+
+    &lt;img class="avatar-md" src="../../Images/avatar2.png"  alt="avatar"&gt;
+
+    &lt;img class="avatar-lg" src="../../Images/avatar3.jpg"  alt="avatar"&gt;
+            </code>
+        </pre>
+
+        <div class="line"></div>
+            <h3 class="description">Avatar's can be of square shape.</h3>
+            <h3 class="description">Just add -square in the end</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+        <div class="com-display">
+            <img class="avatar-sm-square" src="../../Images/avatar1.jpg"  alt="avatar">
+            <img class="avatar-md-square" src="../../Images/avatar2.png"  alt="avatar">
+            <img class="avatar-lg-square" src="../../Images/avatar3.jpg"  alt="avatar">
+    </div>
+    <pre>
+        <code class="html">
+    &lt;img class="avatar-sm-square" src="../../Images/avatar1.jpg"  alt="avatar"&gt;
+
+    &lt;img class="avatar-md-square" src="../../Images/avatar2.png"  alt="avatar"&gt;
+
+    &lt;img class="avatar-lg-square" src="../../Images/avatar3.jpg"  alt="avatar"&gt;
+        </code>
+    </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Alert/Alert.html">&lt;&emsp;Alert</a></li>
+            <li><a href="../Badge/Badge.html">Badge&emsp;&gt;</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function dismissErrorAlert() {
+            document.getElementsByClassName("errorAlert")[0].classList.add("dismiss")
+        }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

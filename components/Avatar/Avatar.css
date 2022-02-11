@@ -1,0 +1,44 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #ccd6f6;
+    font 3 : #6e7996;   
+*/
+
+.avatar-sm {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 50%;
+}
+
+.avatar-md {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.avatar-lg {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+.avatar-sm-square {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 10%;
+}
+
+.avatar-md-square {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10%;
+}
+
+.avatar-lg-square {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 10%;
+}

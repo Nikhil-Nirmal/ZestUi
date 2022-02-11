@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Alert.css">
+    <link rel="stylesheet" href="Badge.css">
+    <link rel="stylesheet" href="../Avatar/Avatar.css">
     <link rel="stylesheet" href="../../Css/open.css">
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
-    <title>Alert</title>
+    <title>Badge</title>
 </head>
 <body>
     <header>
@@ -86,17 +87,17 @@
                 </div>
                 <ul class="list">
                     <li>
-                        <a id="active" href="#">
+                        <a href="/components/Alert/Alert.html">
                             Alert
                         </a>
                     </li>
                     <li>
-                        <a href="/components/Avatar/avatar.html">
+                        <a  href="/components/Avatar/avatar.html">
                             Avatar
                         </a>
                     </li>
                     <li>
-                        <a href="/components/Badge/badge.html">
+                        <a id="active" href="/components/Badge/badge.html">
                             Badge
                         </a>
                     </li>
@@ -141,144 +142,77 @@
 
         
         <main class="heroSection">
-            <h1 class="title"> <highlight class="num">1.&emsp;</highlight> Alert :</h1>
+            <h1 class="title"> <highlight class="num">3.&emsp;</highlight> Badge :</h1>
             <div class="line"></div>
-            <h3 class="description">Alert messages can be used to notify the user about something special: danger, success, information or warning.</h3>
+            <h3 class="description">Badges are small circles, positioned either at top-right or bottom-right of the parent component.</h3>
+            <h3 class="description"> Badge can be used to display numbers, online / offline status, depending on where they are used.</h3>
             <h3 class="description">Some examples are shown below:</h3>
-            <div class="alerts">
-                <div class="errorAlert">
-                    <h1 class="errorAlertText"> Error! This is an Error Alert. </h1>
+            
+            <div class="com-display">
+                <div class="badge">
+                    <img src="../../Images/avatar1.jpg" class="avatar-lg" alt="">
+                    <div class="on"></div>
                 </div>
-                <div class="warningAlert">
-                    <h1 class="warningAlertText">Warning! This is a Warning Alert. </h1>
+                <div class="badge">
+                    <img src="../../Images/avatar2.png" class="avatar-lg" alt="">
+                    <div class="off"></div>
                 </div>
-                <div class="primaryAlert">
-                    <h1 class="primaryAlertText">Primary! This is a Primary Alert. </h1>
-                </div>
-                <div class="successAlert">
-                    <h1 class="successAlertText">Success! This is a Success Alert. </h1>
+                <div class="badge">
+                        <img src="../../Images/avatar3.jpg" class="avatar-lg" alt="">
+                        <div class="dnd"></div>
                 </div>
             </div>
-
             <pre>
                 <code class="html">
-    &lt;div class="errorAlert"&gt;
-        &lt;h1 class="errorAlertText"&gt;
-        Error! This is an Error Alert. 
-        &lt;/h1&gt;
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar1.jpg" class="avatar-lg" alt=""&gt;
+        &lt;div class="on"&gt;&lt;/div&gt;
     &lt;/div&gt;
 
-    &lt;div class="warningAlert"&gt;
-        &lt;h1 class="warningAlertText"&gt;
-        Warning! This is a Warning Alert.&lt;/h1&gt;
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar2.png" class="avatar-lg" alt=""&gt;
+        &lt;div class="off"&gt;&lt;/div&gt;
     &lt;/div&gt;
-    
-    &lt;div class="primaryAlert"&gt;
-        &lt;h1 class="primaryAlertText"&gt;
-        Primary! This is a Primary Alert.&lt;/h1&gt;
-    &lt;/div&gt;
-                    
-    &lt;div class="successAlert"&gt;
-        &lt;h1 class="successAlertText"&gt;
-        Success! This is a Success Alert. &lt;/h1&gt;
+
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar3.jpg" class="avatar-lg" alt=""&gt;
+        &lt;div class="dnd"&gt;&lt;/div&gt;
     &lt;/div&gt;
                 </code>
             </pre>
-
             <div class="line"></div>
-            <h3 class="description">Below are some examples of Alert with outline :</h3>
-            <div class="alerts">
-                <div class="errorAlert-outline">
-                    <h1 class="errorAlertText-outline"> Error! This is an Error Alert. </h1>
-                </div>
-                <div class="warningAlert-outline">
-                    <h1 class="warningAlertText-outline">Warning! This is a Warning Alert. </h1>
-                </div>
-                <div class="primaryAlert-outline">
-                    <h1 class="primaryAlertText-outline">Primary! This is a Primary Alert. </h1>
-                </div>
-                <div class="successAlert-outline">
-                    <h1 class="successAlertText-outline">Success! This is a Success Alert. </h1>
-                </div>
-            </div>
+            <h3 class="description">Number Badges.</h3>
+            <h3 class="description">Badges With Number Can be used for Notification count</h3>
 
-            <pre>
-                <code class="html">
-    &lt;div class="errorAlert-outline"&gt;
-        &lt;h1 class="errorAlertText-outline"&gt;
-        Error! This is an Error Alert. 
-        &lt;/h1&gt;
-    &lt;/div&gt;
-
-    &lt;div class="warningAlert-outline"&gt;
-        &lt;h1 class="warningAlertText-outline"&gt;
-        Warning! This is a Warning Alert.&lt;/h1&gt;
-    &lt;/div&gt;
-    
-    &lt;div class="primaryAlert-outline"&gt;
-        &lt;h1 class="primaryAlertText-outline"&gt;
-        Primary! This is a Primary Alert.&lt;/h1&gt;
-    &lt;/div&gt;
-                    
-    &lt;div class="successAlert-outline"&gt;
-        &lt;h1 class="successAlertText-outline"&gt;
-        Success! This is a Success Alert. &lt;/h1&gt;
-    &lt;/div&gt;
-                </code>
-            </pre>
-
-
-            <div class="line"></div>    
-            <h3 class="description">Alert with Icons :</h3>
-            <div class="alerts">
-                <div class="errorAlert-icon">
-                    <h1 class="errorAlertText-icon"> Error! This is an Error Alert. </h1>
-                    <img src="../../Images/error.png" alt="">
+            <div class="com-display">
+                <div class="badge">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" class="avatar-lg" alt="">
+                    <div class="num">5</div>
                 </div>
-                <div class="warningAlert-icon">
-                    <h1 class="warningAlertText-icon">Warning! This is a Warning Alert. </h1>
-                    <img src="../../Images/warning.png" alt="">
-                </div>
-                <div class="successAlert-icon">
-                    <h1 class="successAlertText-icon">Success! This is a Success Alert. </h1>
-                    <img src="../../Images/success.png" alt="">
-                </div>
-            </div>
 
-            <pre>
-                <code class="html">
-    &lt;div class="errorAlert-outline"&gt;
-        &lt;h1 class="errorAlertText-outline"&gt;
-        Error! This is an Error Alert. 
-        &lt;/h1&gt;
-    &lt;/div&gt;
+                <div class="badge">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" class="avatar-lg-square" alt="">
+                    <div class="num">9</div>
+                </div>
+        </div>
 
-    &lt;div class="warningAlert-outline"&gt;
-        &lt;h1 class="warningAlertText-outline"&gt;
-        Warning! This is a Warning Alert.&lt;/h1&gt;
+        <pre>
+            <code class="html">
+    &lt;div class="badge"&gt;
+        &lt;img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" class="avatar-lg" alt=""&gt;
+        &lt;div class="num"&gt;9&lt;/div&gt;
     &lt;/div&gt;
-    
-    &lt;div class="primaryAlert-outline"&gt;
-        &lt;h1 class="primaryAlertText-outline"&gt;
-        Primary! This is a Primary Alert.&lt;/h1&gt;
-    &lt;/div&gt;
-                    
-    &lt;div class="successAlert-outline"&gt;
-        &lt;h1 class="successAlertText-outline"&gt;
-        Success! This is a Success Alert. &lt;/h1&gt;
-    &lt;/div&gt;
-                </code>
-            </pre>
+            </code>
+        </pre>
         </main>
     </div>
-</div>
 
-<footer>
-    <ul >
-        <li><a href="../../Getting Started/introduction.html">&lt;&emsp;Get Started</a></li>
-        <li><a href="../Avatar/Avatar.html">Avatar&emsp;&gt;</a></li>
-    </ul>
-</footer>
+    <footer>
+        <ul >
+            <li><a href="../Avatar/Avatar.html">&lt;&emsp;Avatar</a></li>
+            <li><a href="../Button/Button.html">Button&emsp;&gt;</a></li>
+        </ul>
+    </footer>
 
     <script>
         function dismissErrorAlert() {
