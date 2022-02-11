@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../Css/open.css">
+    <link rel="stylesheet" href="Modal.css">
+    <link rel="stylesheet" href="../../Button/Button.css">
+    <link rel="stylesheet" href="../../Alert/Alert.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Modal</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            <a class="display" href="/components/Alert/Alert.html">Extras</a>
+        </div>
+        <ul class="list-mobile">
+            <li>
+                <a href="../Extras.html">
+                    Rating
+                </a>
+            </li>
+            <li>
+                <a  href="../Extra-Components/Modal.html">
+                    Modal
+                </a>
+            </li>
+            <li>
+                <a href="../Extra-Components/Navigation.html">
+                    Navigation
+                </a>
+            </li>
+            <li>
+                <a href="../Extra-Components/Slider.html">
+                    Slider
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Extras</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="../Extras.html">
+                            Rating
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="../Extra-Components/Modal.html ">
+                            Modal
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="../Extra-Components/Navigation.html">
+                            Navigation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Extra-Components/Slider.html">
+                            Slider
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">2.&emsp;</highlight> Modal :</h1>
+            <div class="line"></div>
+            <h3 class="description">A modal is a dialog box/popup window that is displayed on top of a page.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+            
+            <div class="com-display">
+               <div class="modal-container" id="btn-link"> 
+                <button id="myBtn" class="btn-outline">Modal</button>
+                
+                <div id="myModal" class="modal">
+                    <div id="modal-content"class="primaryAlert-outline">
+                        <h1 class="primaryAlertText-outline">Hey there.........</h1>
+                        <div class="close">&times;</div>
+                    </div>
+                
+                </div>
+               </div>
+            </div>
+            <pre>
+                <code class="html">
+    &lt;div class="modal-container" id="btn-link"&gt; 
+
+        &lt;button id="myBtn" class="btn-outline"&gt;Modal&lt;/button&gt;
+
+        &lt;div id="myModal" class="modal"&gt;
+
+            &lt;div id="modal-content"class="primaryAlert-outline"&gt;
+
+                &lt;h1 class="primaryAlertText-outline"&gt;Hey there.........&lt;/h1&gt;
+
+                &lt;div class="close"&gt;&times;&lt;/div&gt;
+
+            &lt;/div&gt;
+
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+                </code>
+            </pre>
+
+            <pre>
+                <code class="html">
+
+    &lt;script&gt;
+
+        var modal = document.getElementById("myModal");
+                        
+                
+        var btn = document.getElementById("myBtn");
+                        
+                
+        var span = document.getElementsByClassName("close")[0];
+                        
+                
+        btn.onclick = function() 
+        {
+            modal.style.display = "block";
+        }
+                        
+                
+        span.onclick = function() 
+        {
+            modal.style.display = "none"; 
+        }
+        window.onclick = function(event) 
+        {
+            if (event.target == modal) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    &lt;/script&gt;
+                </code>
+            </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Extras.html">&lt;&emsp;Rating</a></li>
+            <li><a href="../Extra-Components/Navigation.html">Navigation&emsp;&gt;</a></li>
+        </ul>
+    </footer>
+
+    <script>
+
+        var modal = document.getElementById("myModal");
+        
+
+        var btn = document.getElementById("myBtn");
+        
+
+        var span = document.getElementsByClassName("close")[0];
+        
+
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+        if (event.target == modal) {
+        modal.style.display = "none";
+          }
+        }
+        </script>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
