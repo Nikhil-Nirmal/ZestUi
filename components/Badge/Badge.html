@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Badge.css">
+    <link rel="stylesheet" href="../Avatar/Avatar.css">
+    <link rel="stylesheet" href="../../Css/open.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-mobile">
+            <li>
+                <a href="#">
+                    Alert
+                </a>
+            </li>
+            <li>
+                <a href="/components/Avatar/avatar.html">
+                    Avatar
+                </a>
+            </li>
+            <li>
+                <a href="/components/Badge/badge.html">
+                    Badge
+                </a>
+            </li>
+            <li>
+                <a href="/components/Button/button.html">
+                    Button
+                </a>
+            </li>
+            <li>
+                <a href="/components/Card/card.html">
+                    Card
+                </a>
+            </li>
+            <li>
+                <a href="/components/Image/Image.html">
+                    Image
+                </a>
+            </li>
+            <li>
+                <a href="/components/Input/Input.html">
+                    Input
+                </a>
+            </li>
+            <li>
+                <a href="/components/Lists/Lists.html">
+                    List
+                </a>
+            </li>
+            <li>
+                <a href="/components/Toast/toast.html">
+                    Toast
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extras.html">
+                    Extras
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Components</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="/components/Alert/Alert.html">
+                            Alert
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="/components/Avatar/avatar.html">
+                            Avatar
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="/components/Badge/badge.html">
+                            Badge
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Button/button.html">
+                            Button
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Card/card.html">
+                            Card
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Image/Image.html">
+                            Image
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Input/Input.html">
+                            Input
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Lists/Lists.html">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Toast/toast.html">
+                            Toast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Extras/Extras.html">
+                            Extras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">3.&emsp;</highlight> Badge :</h1>
+            <div class="line"></div>
+            <h3 class="description">Badges are small circles, positioned either at top-right or bottom-right of the parent component.</h3>
+            <h3 class="description"> Badge can be used to display numbers, online / offline status, depending on where they are used.</h3>
+            <h3 class="description">Some examples are shown below:</h3>
+            
+            <div class="com-display">
+                <div class="badge">
+                    <img src="../../Images/avatar1.jpg" class="avatar-lg" alt="">
+                    <div class="on"></div>
+                </div>
+                <div class="badge">
+                    <img src="../../Images/avatar2.png" class="avatar-lg" alt="">
+                    <div class="off"></div>
+                </div>
+                <div class="badge">
+                        <img src="../../Images/avatar3.jpg" class="avatar-lg" alt="">
+                        <div class="dnd"></div>
+                </div>
+            </div>
+            <pre>
+                <code class="html">
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar1.jpg" class="avatar-lg" alt=""&gt;
+        &lt;div class="on"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar2.png" class="avatar-lg" alt=""&gt;
+        &lt;div class="off"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="badge"&gt;
+        &lt;img src="../../Images/avatar3.jpg" class="avatar-lg" alt=""&gt;
+        &lt;div class="dnd"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <div class="line"></div>
+            <h3 class="description">Number Badges.</h3>
+            <h3 class="description">Badges With Number Can be used for Notification count</h3>
+
+            <div class="com-display">
+                <div class="badge">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" class="avatar-lg" alt="">
+                    <div class="num">5</div>
+                </div>
+
+                <div class="badge">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" class="avatar-lg-square" alt="">
+                    <div class="num">9</div>
+                </div>
+        </div>
+
+        <pre>
+            <code class="html">
+    &lt;div class="badge"&gt;
+        &lt;img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" class="avatar-lg" alt=""&gt;
+        &lt;div class="num"&gt;9&lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Avatar/Avatar.html">&lt;&emsp;Avatar</a></li>
+            <li><a href="../Button/Button.html">Button&emsp;&gt;</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function dismissErrorAlert() {
+            document.getElementsByClassName("errorAlert")[0].classList.add("dismiss")
+        }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
