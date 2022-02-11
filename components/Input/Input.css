@@ -1,0 +1,40 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #ccd6f6;
+    font 3 : #6e7996;   
+*/
+
+
+.input {
+    display: block;
+    padding: 0.1rem 0.1rem;
+}
+
+.password {
+    display: block;
+}
+
+.input-text {
+    background-color: #98aeff;
+    padding: 0px 0.5rem;
+}
+
+.FN ,.LN {
+    padding: 0.1rem 0.1rem;     
+}
+
+#disabled:hover {
+    cursor: no-drop;
+}
+
+.disabled-input{
+    cursor: not-allowed;
+}
+
+.normal-input , .unchecked-input {
+    cursor: pointer;
+}
+

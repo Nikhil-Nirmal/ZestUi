@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Card.css">
+    <link rel="stylesheet" href="../Avatar/Avatar.css">
+    <link rel="stylesheet" href="../../Css/open.css">
+    <link rel="stylesheet" href="../Button/Button.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/tomorrow-night-blue.min.css">
+    <title>Card</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../../index.html">Zest UI</a>   
+                </li>
+                <li>
+                    <img class="mobileView" onclick="openNav()" src="../../Images/drawer2.png" alt="drawer">  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="list-mobile">
+            <li>
+                <a href="/components/Alert/Alert.html">
+                    Alert
+                </a>
+            </li>
+            <li>
+                <a href="/components/Avatar/avatar.html">
+                    Avatar
+                </a>
+            </li>
+            <li>
+                <a href="/components/Badge/badge.html">
+                    Badge
+                </a>
+            </li>
+            <li>
+                <a href="/components/Button/button.html">
+                    Button
+                </a>
+            </li>
+            <li>
+                <a href="/components/Card/card.html">
+                    Card
+                </a>
+            </li>
+            <li>
+                <a href="/components/Image/Image.html">
+                    Image
+                </a>
+            </li>
+            <li>
+                <a href="/components/Input/Input.html">
+                    Input
+                </a>
+            </li>
+            <li>
+                <a href="/components/Lists/Lists.html">
+                    List
+                </a>
+            </li>
+            <li>
+                <a href="/components/Toast/toast.html">
+                    Toast
+                </a>
+            </li>
+            <li>
+                <a href="/components/Extras/Extras.html">
+                    Extras
+                </a>
+            </li>
+        </ul>
+      </div>
+    <div class="centerContent">
+        <sidebar class="sideBar">
+            <div>
+                <div>
+                    <a class="display" href="/components/Alert/Alert.html">Components</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="/components/Alert/Alert.html">
+                            Alert
+                        </a>
+                    </li>
+                    <li>
+                        <a  href="/components/Avatar/avatar.html">
+                            Avatar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Badge/badge.html">
+                            Badge
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Button/button.html">
+                            Button
+                        </a>
+                    </li>
+                    <li>
+                        <a id="active" href="/components/Card/card.html">
+                            Card
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Image/Image.html">
+                            Image
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Input/Input.html">
+                            Input
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Lists/Lists.html">
+                            List
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Toast/toast.html">
+                            Toast
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/components/Extras/Extras.html">
+                            Extras
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+
+        
+        <main class="heroSection">
+            <h1 class="title"> <highlight class="num">5.&emsp;</highlight> Cards :</h1>
+            <div class="line"></div>
+            <h3 class="description">Badges are small circles, positioned either at top-right or bottom-right of the parent componentA “card” is a UI design pattern that groups related information in a flexible-size container visually resembling a playing card.</h3>
+            <h3 class="description">Some examples are shown below:</h3>
+            
+            <div class="com-display">
+                <div class="card" id="btn-link">
+                    <div class="card-title">
+                        Bleach
+                    </div>
+                    <div class="card-text">
+                        "Zangetsu, I won't ask you to 'lend me your power' any more. And I won't tell you 'don't get in my way'. I won't even say 'let us fight together'. I'll fight for myself. Thank you, Zangetsu. You are me."
+                    </div>
+                </div>
+            </div>
+            <pre>
+                <code class="html">
+    &lt;div class="card"&gt;
+
+        &lt;div class="card-title"&gt;
+
+            Bleach
+
+        &lt;/div&gt;
+
+        &lt;div class="card-text"&gt;
+
+            "Zangetsu, I won't ask you to 'lend me your power' any more. And I won't tell you 'don't get in my way'. I won't even say 'let us fight together'. I'll fight for myself. Thank you, Zangetsu. You are me."
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <div class="line"></div>
+            <h3 class="description">Cards with image.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+
+            <div class="com-display">
+                <div class="card" id="btn-link">
+                    <img class="card-image" src="../../Images/ichigo.jpg" alt="img" />
+                    <div class="card-title">
+                        Bleach
+                    </div>
+                    <div class="card-text">
+                        "Zangetsu, I won't ask you to 'lend me your power' any more. And I won't tell you 'don't get in my way'. I won't even say 'let us fight together'. I'll fight for myself. Thank you, Zangetsu. You are me."
+                    </div>
+                </div>
+            </div>
+
+        <pre>
+            <code class="html">
+    &lt;div class="card"&gt;
+
+        &lt;img class="card-image" src="../../Images/ichigo.jpg" alt="img" /&gt;
+
+        &lt;div class="card-title"&gt;
+
+            Bleach
+
+        &lt;/div&gt;
+
+        &lt;div class="card-text"&gt;
+
+            "Zangetsu, I won't ask you to 'lend me your power' any more. And I won't tell you 'don't get in my way'. I won't even say 'let us fight together'. I'll fight for myself. Thank you, Zangetsu. You are me."
+
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+            </code>
+        </pre>
+
+        <div class="line"></div>
+            <h3 class="description">Social-Media card.</h3>
+            <h3 class="description">Some examples are shown below :</h3>
+        <div class="com-display">
+            <div class="card" id="btn-link">
+                <div class="card-head">
+                    <img src="../../Images/avatar3.jpg" alt="" class="avatar-sm">
+                    Nikhil Nirmal
+                </div>
+                <img class="card-image" src="../../Images/chill.jpg" alt="chill" />
+                <div class="card-text">
+                    Programmer is a machine that turns Coffee/Tea into code.
+                </div>
+            </div>
+        </div>
+    <pre>
+        <code class="html">
+    &lt;div class="card"&gt;
+
+        &lt;div class="card-head"&gt;
+
+            &lt;img src="../../Images/avatar3.jpg" alt="" class="avatar-sm"&gt;
+
+                Nikhil Nirmal
+
+        &lt;/div&gt;
+
+        &lt;img class="card-image" src="../../Images/chill.jpg" alt="chill" /&gt;
+
+        &lt;div class="card-text"&gt;
+
+            Programmer is a machine that turns Coffee/Tea into code.
+
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+        </code>
+    </pre>
+
+
+    <div class="line"></div>
+        <h3 class="description">Ecommerce-Site card. </h3>
+        <h3 class="description">Some examples are shown below :</h3>
+        <div class="com-display">
+            <div class="card-ecommerce" id="btn-link">
+                <img class="product-image" src="../../Images/product-img.jpg" alt="product" />
+                <div class="card-title">
+                    Play Station 5.
+                </div>
+                <div class="card-text">
+                    Play Station 5 Controller with addaptive triggers.
+                </div>
+                <div class="prices">
+                    <span class="current-price">
+                        ₹5,691.00
+                    </span>
+                    <span class="before-price">
+                        ₹5,990.00
+                    </span>
+                    <span class="discount">
+                        ₹299.00 (5%)
+                    </span>
+                </div>
+                <button class="btn-primary">Add to cart</button>
+            </div>
+        </div>
+    <pre>
+        <code class="html">
+    &lt;div class="card-ecommerce"&gt;
+
+        &lt;img class="product-image" src="../../Images/product-img.jpg" alt="product" /&gt;
+
+        &lt;div class="card-title"&gt;
+
+            Play Station 5.
+
+        &lt;/div&gt;
+
+        &lt;div class="card-text"&gt;
+
+            Play Station 5 Controller with addaptive triggers.
+
+        &lt;/div&gt;
+
+        &lt;div class="prices"&gt;
+
+        &lt;span class="current-price"&gt;
+
+            ₹5,691.00
+
+        &lt;/span&gt;
+
+        &lt;span class="before-price"&gt;
+
+            ₹5,990.00
+
+        &lt;/span&gt;
+
+        &lt;span class="discount"&gt;
+
+            ₹299.00 (5%)
+
+        &lt;/span&gt;
+
+        &lt;/div&gt;
+
+        &lt;button class="btn-primary"&gt;Add to cart&lt;/button&gt;
+                
+    &lt;/div&gt;
+        </code>
+    </pre>  
+        </main>
+    </div>
+
+    <footer>
+        <ul >
+            <li><a href="../Button/Button.html">&lt;&emsp;Button</a></li>
+            <li><a href="../Image/Image.html">Image&emsp;&gt;</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        function dismissErrorAlert() {
+            document.getElementsByClassName("errorAlert")[0].classList.add("dismiss")
+        }
+    </script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

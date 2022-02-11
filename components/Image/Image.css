@@ -1,0 +1,19 @@
+/* 
+    Author Name:Nikhil Nirmal,
+    color pallet used:
+    background:#0a192f;
+    font 1 : #55dabe;
+    font 2 : #ccd6f6;
+    font 3 : #6e7996;   
+*/
+
+.image {
+    width: 20rem;
+    height: 20rem;
+}
+
+.image-round {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
