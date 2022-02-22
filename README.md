@@ -9,6 +9,31 @@ Zest is an css library which will help you to quickly level up your css game lik
 
 [Zest](https://zest-ui.netlify.app/)
 
+# Components :
+
+Alert 
+
+Avatar
+
+Badge
+
+Button
+
+Card
+
+Image
+
+List
+
+Toast
+
+Rating 
+
+Modal 
+
+Navigation 
+
+Slider
 
 
 
